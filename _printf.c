@@ -57,7 +57,10 @@ int _printf(const char *format, ...)
 		}
 		i++;
 		if (!format[i])
-			break;
+		{
+			va_end(args);
+			return (-1);
+		}
 
 		fn = get_handler(format[i]);
 		if (fn)
