@@ -119,6 +119,13 @@ _printf("Null string: [%s]\n", (char *)NULL);
 _printf("INT_MIN: [%d]\n", -2147483648);
 // → INT_MIN: [-2147483648]
 ```
+---
+
+## Flowchart
+
+The following diagram illustrates the logic of the _printf function:
+
+![Flowchart description](Flowchart.png)
 
 ---
 
