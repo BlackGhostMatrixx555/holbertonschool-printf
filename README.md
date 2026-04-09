@@ -43,10 +43,15 @@ The implementation uses a **dispatch table** (an array of structs) to map each s
 
 | File | Description |
 |------|-------------|
-| `main.h` | Header file — include guard, `fmt_t` struct, all prototypes |
-| `_printf.c` | Entry point — format parser and specifier dispatcher |
-| `handlers.c` | Handler functions — one per supported conversion specifier |
-| `README.md` | This file |
+| `main.h` | Header file — include guards, `fmt_t` struct, and all function prototypes |
+| `_printf.c` | Entry point — format string parser and specifier dispatcher (`get_handler`) |
+| `print_char.c` | Handler function for the `%c` specifier |
+| `print_string.c` | Handler function for the `%s` specifier |
+| `print_percent.c` | Handler function for the `%%` specifier |
+| `print_int.c` | Handler function for the `%d` and `%i` specifiers |
+| `_putchar.c` | Utility function to write a single character to stdout |
+
+> **Note:** `main.c` is provided in the repository as a test file but should not be compiled in the final library build.
 
 ---
 
@@ -121,7 +126,7 @@ _printf("INT_MIN: [%d]\n", -2147483648);
 ```
 ---
 
-## Flowchart
+## 📊 Flowchart
 
 The following diagram illustrates the logic of the _printf function:
 
