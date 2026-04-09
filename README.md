@@ -1,3 +1,5 @@
+![Holberton School Logo](Holberton.svg)
+
 # 🖨️ _printf — Custom Implementation of printf in C
 
 A custom reimplementation of the C standard library `printf` function, built from scratch as part of the **Holberton School** curriculum. This project covers variadic arguments, format string parsing, and output formatting without relying on `printf` itself.
