@@ -144,6 +144,6 @@ int len = _printf("Hi\\n");
 .BR write (2),
 .BR stdarg (3)
 .SH AUTHORS
-Thelyaan Dufrenoy and Steven Reize Mountsambote
+Thelyaan Dufrenoy
 .br
 Holberton School \(em 2025
