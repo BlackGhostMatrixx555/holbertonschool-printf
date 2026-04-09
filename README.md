@@ -141,8 +141,7 @@ The following diagram illustrates the logic of the _printf function:
 
 ## 👥 Authors
 
-- **Thelyaan Dufrenoy** — [GitHub](https://github.com/)
-- **Steven Reize Mountsambote** — [GitHub](https://github.com/)
+- **Thelyaan Dufrenoy** — [GitHub](https://github.com/BlackGhostMatrixx555)
 
 ---
 
